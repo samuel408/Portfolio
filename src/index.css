@@ -1,5 +1,5 @@
 :root{
-  --blue: #005eb5;
+  --blue: #1a548a;
 
 }
 html{
@@ -14,13 +14,15 @@ body {
   text-decoration: none;
   color :white;
   
- 
+  background-color:var(--blue);
+
 
 }
 header{
   height:100px;
   background-image:url(../src/newnewbanner.jpeg);
-  
+  margin-bottom: 100px;
+
 }
 nav{
   font-size: large;
@@ -36,7 +38,7 @@ code {
 }
 .name{
   position: absolute;
-  margin:10px;
+  margin:20px 100px;
 }
 
 .firstNav{
@@ -44,6 +46,17 @@ code {
 }
 
 .marginTop{
-  padding-top: 25px;
+  padding-top: 40px;
 
 }
+
+#about {
+  margin:20px;
+  text-align: center;
+}
+#bio{
+  margin:50px;
+  text-align:center;
+}
+
+

@@ -2,7 +2,10 @@ import React from 'react';
 
 function Nav(){
     return(
-        <header >
+        
+        <header className="" >
+
+
   <h1 className=" name col-sm">
       Samuel Saldivar
   </h1>   
