@@ -1,6 +1,13 @@
 import React from 'react';
 
-function Nav(){
+function Nav(props){
+    const {
+        categories = [],
+        setCurrentCategory,
+        contactSelected,
+        currentCategory,
+        setContactSelected,
+      } = props;
     return(
         
         <header className="" >
@@ -13,18 +20,18 @@ function Nav(){
    <div className=" container">
   <div className=" marginTop row">
  
-    <a href="/" className=" firstNav col-sm">
+    <a  className=" firstNav col-sm" href="#About" onClick={() => setContactSelected(false)}>
       About Me
     </a>
-    <a href="/" className="col-sm">
-      Portfolio
-    </a>
-    <a href="/" className="col-sm">
+    <span href="/"  onClick={() => setContactSelected(true)} className=" contact col-sm">      Portfolio
+    </span>
+    <span href="/"  onClick={() => setContactSelected(true)} className=" contact col-sm">
       Contact
-    </a>
-    <a href="/" className="col-sm">
-      Resume
-    </a>
+    </span>
+
+    <span href="/"  onClick={() => setContactSelected(true)} className=" contact col-sm">
+              Resume
+    </span>
   </div>
 </div>
   </nav>
