@@ -4,17 +4,17 @@ import About from './component/About';
 import Footer from './component/Footer';
 import Contact from './component/Contact'
 import Resume from './component/Resume';
+import Work from './component/Work';
 
 
 function App() {
   const [categories] = useState([
     {
-      name: 'About me',
-      description: 'A little about me',
+      // name: 'Grocery aisle',
+      // category: 'work',
+      // description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
     },
-    { name: 'Portfolio', description: 'some of my work' },
-    { name: 'Contact', description: 'Reach out to me' },
-    { name: 'Resume', description: 'My skills' },
+  
   ]);
 
     const [currentCategory, setCurrentCategory] = useState(categories[0]);
@@ -34,6 +34,7 @@ function App() {
     <>
       <About></About>
       <Resume></Resume>
+      <Work></Work>
 
     </>
   ) : (
