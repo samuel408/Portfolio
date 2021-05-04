@@ -3,6 +3,7 @@ import Nav from './component/Nav';
 import About from './component/About';
 import Footer from './component/Footer';
 import Contact from './component/Contact'
+import Resume from './component/Resume';
 
 
 function App() {
@@ -12,8 +13,8 @@ function App() {
       description: 'A little about me',
     },
     { name: 'Portfolio', description: 'some of my work' },
-    { name: 'contact', description: 'Reach out to me' },
-    { name: 'resume', description: 'My skills' },
+    { name: 'Contact', description: 'Reach out to me' },
+    { name: 'Resume', description: 'My skills' },
   ]);
 
     const [currentCategory, setCurrentCategory] = useState(categories[0]);
@@ -32,10 +33,15 @@ function App() {
  {!contactSelected ? (
     <>
       <About></About>
+      <Resume></Resume>
+
     </>
   ) : (
       <Contact></Contact>
-    )}
+
+    )
+  }
+
 <Footer></Footer>
 </div>
 

@@ -29,7 +29,7 @@ function Nav(props){
       Contact
     </span>
 
-    <span href="/"  onClick={() => setContactSelected(true)} className=" contact col-sm">
+    <span href="#Resume"  onClick={() => setContactSelected(true)} className=" contact col-sm">
               Resume
     </span>
   </div>
