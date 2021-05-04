@@ -8,14 +8,18 @@ import photo5 from "../../assets/work/work/5.jpg";
 
 
 
-function Gallery(props) {
+function Work(props) {
   const currentCategory = {
     name: "commercial",
     description:
       "Photos of grocery stores, food trucks, and other commercial projects",
   };
   return (
-    <section>
+      
+    <section className="workSection">
+        <h1 className="title">
+            Portfolio
+        </h1>
         <div class="container">
   <div class="row">
     <a  href="https://evening-ravine-78123.herokuapp.com/" class="col-sm">
@@ -89,4 +93,4 @@ function Gallery(props) {
     </section>
   );
 }
-export default Gallery;
+export default Work;

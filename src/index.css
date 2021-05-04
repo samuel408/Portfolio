@@ -107,7 +107,6 @@ code {
 }
 
 footer{
-  /* background-color: #8872; */
   margin-bottom: 20px;
   text-align: center;
   padding: 20px;
@@ -118,4 +117,12 @@ footer{
   width: 100%;
 }
 
+.workSection{
+  margin:20px;
+  margin-bottom:100px;
 
+}
+.title{
+  margin:20px;
+  text-align: center;
+}
