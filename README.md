@@ -19,7 +19,7 @@
 
 ## installations 
 run through the link
-![link](https://samuel408.github.io/Portfolio/)
+![link] (https://samuel408.github.io/Portfolio/)
 ## usage
  click the link
 
