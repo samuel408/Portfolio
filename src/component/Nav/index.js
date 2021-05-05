@@ -4,9 +4,9 @@ function Nav(props){
     const {
         categories = [],
         setCurrentCategory,
-        contactSelected,
+        pageSelected,
         currentCategory,
-        setContactSelected,
+        setPageSelected,
       } = props;
     return(
         
@@ -20,18 +20,18 @@ function Nav(props){
    <div className=" container">
   <div className=" marginTop row">
  
-    <a  className=" firstNav col-sm" href="#About" onClick={() => setContactSelected(false)}>
+    <a  className=" firstNav col-sm" href="#About" onClick={() => setPageSelected("about")}>
       About Me
     </a>
-    <span href="/"  onClick={() => setContactSelected(true)} className=" contact col-sm">      Portfolio
-    </span>
-    <span href="/"  onClick={() => setContactSelected(true)} className=" contact col-sm">
+    <a href="#Work"  onClick={() => setPageSelected("portfolio")} className=" contact col-sm">      Portfolio
+    </a>
+    <a href="#Contact"  onClick={() => setPageSelected("contact")} className=" contact col-sm">
       Contact
-    </span>
+    </a>
 
-    <span href="#Resume"  onClick={() => setContactSelected(true)} className=" contact col-sm">
+    <a href="#Resume"  onClick={() => setPageSelected("resume")} className=" contact col-sm">
               Resume
-    </span>
+    </a>
   </div>
 </div>
   </nav>

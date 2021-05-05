@@ -16,7 +16,7 @@ function Work(props) {
   };
   return (
       
-    <section className="workSection">
+    <section id="Work" className="workSection">
         <h1 className="title">
             Portfolio
         </h1>
@@ -27,7 +27,7 @@ function Work(props) {
       <div className="flex-row">
           <img
             src={photo}
-            alt="Commercial Example"
+            alt="zookeeper data manipulation"
             className="img-thumbnail mx-1"
           />
       </div>  
@@ -37,7 +37,7 @@ function Work(props) {
       <div className="flex-row">
           <img
             src={photo1}
-            alt="Commercial Example"
+            alt="latest covid stats and news"
             className="img-thumbnail mx-1"
           />
       </div>  
@@ -47,7 +47,7 @@ function Work(props) {
       <div className="flex-row">
           <img
             src={photo2}
-            alt="Commercial Example"
+            alt="pocket weather forcast"
             className="img-thumbnail mx-1"
           />
       </div>  
@@ -62,7 +62,7 @@ function Work(props) {
       <div className="flex-row">
           <img
             src={photo3}
-            alt="Commercial Example"
+            alt="manage your finances!"
             className="img-thumbnail mx-1"
           />
       </div>  
@@ -72,7 +72,7 @@ function Work(props) {
       <div className="flex-row">
           <img
             src={photo4}
-            alt="Commercial Example"
+            alt="A website to talk about food recipies"
             className="img-thumbnail mx-1"
           />
       </div>  
@@ -82,7 +82,7 @@ function Work(props) {
       <div className="flex-row">
           <img
             src={photo5}
-            alt="Commercial Example"
+            alt="Tech daily website for developers to talk tech!"
             className="img-thumbnail mx-1"
           />
       </div>  

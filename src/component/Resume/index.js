@@ -7,7 +7,7 @@ function  Resume(){
 return(
 
 
-<div className="container">
+<div id="#Resume" className="container">
 <div>
     <h1 className="title">
         Resume
