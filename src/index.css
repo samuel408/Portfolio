@@ -58,6 +58,7 @@ header{
   height:100px;
   background-image:url(../src/newnewbanner.jpeg);
   margin-bottom: 100px;
+  width:100%;
 
 }
 nav{
@@ -125,4 +126,24 @@ footer{
 .title{
   margin:20px;
   text-align: center;
+}
+
+@media only screen and (max-width: 1023px) {
+  header{
+    height: 150px;
+  }
+  .name{
+    position: relative;
+    margin:0;
+  }
+  .firstNav{
+    margin:0;
+  }
+  .mediaQ{
+    text-align:end;
+  }
+  .marginTop{
+    padding: 0;
+  }
+ 
 }
